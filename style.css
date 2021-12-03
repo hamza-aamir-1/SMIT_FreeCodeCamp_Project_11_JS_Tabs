@@ -71,8 +71,12 @@ body{
 .btn-container .active{
     background-color: white;
 }
-.content{
+.content-container .content{
     padding: 5px 25px;
+    display: none;
+}
+.content-container .active{
+    display: block;
 }
 .content h3{
     letter-spacing: 3px;
