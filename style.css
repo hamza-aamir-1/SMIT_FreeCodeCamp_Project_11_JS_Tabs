@@ -47,13 +47,13 @@ body{
     display: flex;
     flex-direction: row;
 }
-.btn-container button:nth-last-child(1){
+.btn-container .tab-btn:nth-last-child(1){
     border-top-right-radius: 10px;
 }
-.btn-container button:nth-child(1){
+.btn-container .tab-btn:nth-child(1){
     border-top-left-radius: 10px;
 }
-.btn-container button{
+.btn-container .tab-btn{
     width: 100%;
     padding: 20px 0px;
     font-size: 1em;
@@ -65,7 +65,7 @@ body{
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.btn-container button:hover{
+.btn-container .tab-btn:hover{
     background-color: navajowhite;
 }
 .btn-container .active{
